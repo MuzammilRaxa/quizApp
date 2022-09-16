@@ -3,3 +3,80 @@
     height: 657px;
     width: 525px;
 }
+
+.head {
+    margin-bottom: 30px;
+}
+
+.main {
+    display: inline;
+    justify-content: center;
+
+}
+
+.headingQuesion {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.quesion {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30 30 40 30;
+    margin-bottom: 30px;
+}
+
+.star {
+    height: 20px;
+    width: 20px;
+}
+
+.mycontent {
+    margin: 40px 40px 50px 40px;
+
+
+    justify-content: center;
+}
+
+.icon {
+    color: black;
+}
+
+.mybtn {
+    height: 25px;
+    width: 150px;
+    margin: 25px 25px 30px 25px;
+    font-size: 15px;
+    font-weight: normal;
+    border: 1.5px solid black;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+.mybtn:hover {
+    background-color: gray;
+    transition: 1s;
+}
+
+.progressBorder {
+    margin-bottom: 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 25px;
+    width: 75%;
+
+}
+
+.progressBar {
+    height: 25px;
+    width: 20%;
+    background-color: rgb(197, 196, 196);
+
+
+}
+
+/* .progressBorder>.progressBar {
+    display: flex;
+    align-items: flex-end;
+} */
