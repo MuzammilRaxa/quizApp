@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import MainMenu from "./Components/MainMenu";
+import EndResult from "./Components/MainMenu";
+import QuizPlay from "./Components/QuizPlay";
 
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
 
       <h1> Quiz App </h1>
       {quizState === menu && <MainMenu />}
+      {quizState === menu && <EndResult />}
+      {quizState === menu && <QuizPlay />}
 
 
     </div>
